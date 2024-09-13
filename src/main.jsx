@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import AOS from 'aos';
 import App from './App';
 import './index.css';
+import '@fortawesome/fontawesome-free/css/all.min.css'; // Import Font Awesome CSS
+
 
 const Root = () => {
   useEffect(() => {

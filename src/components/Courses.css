@@ -1,0 +1,48 @@
+.course {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .scroll-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scroll-container {
+    overflow-x: scroll;
+    display: flex;
+    scroll-behavior: smooth;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .course-col {
+    flex: 0 0 300px;
+    margin-right: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .scroll-btn {
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 180px;
+  }
+  
+  .scroll-btn.left {
+    margin-right: 10px;
+  }
+  
+  .scroll-btn.right {
+    margin-left: 10px;
+  }
+  
