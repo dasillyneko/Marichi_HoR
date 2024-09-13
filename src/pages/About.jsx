@@ -1,5 +1,5 @@
 import Breadcrumb from "../components/Breadcrumb";
-import about from "../assets/images/about.png";
+import about from "../assets/images/background2.png";
 
 const AboutUs = () => {
   return (

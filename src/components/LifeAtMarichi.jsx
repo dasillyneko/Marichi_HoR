@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import campus01 from '../assets/images/campus01.jpg'
-import campus02 from '../assets/images/campus02.jpg'
-import campus03 from '../assets/images/campus03.jpg'
+import campus01 from '../assets/images/background2.png'
+import campus02 from '../assets/images/centralg.jpg'
+import campus03 from '../assets/images/cultural.png'
 
 const LifeAtMarichi = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
         { image: campus01, caption: "Student Life" },
-        { image: campus02, caption: "Academic Excellence" },
+        { image: campus02, caption: "Central Garden" },
         { image: campus03, caption: "Cultural Events" }
     ];
 
